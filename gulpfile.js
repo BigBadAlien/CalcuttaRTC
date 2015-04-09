@@ -43,7 +43,7 @@ gulp.task("test", function() {
     var mocha = require('gulp-mocha');
 
     return gulp.src("tests/end_to_end/**.js", {read: false})
-        .pipe(mocha({reporter: "nyan"}));
+        .pipe(mocha({reporter: "stylish"}));
 });
 
 gulp.task("install", function() {
