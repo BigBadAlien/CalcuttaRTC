@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WebRTC callee testing</title>
+
+</head>
+<body>
+
+<textarea disabled name="messagesList" id="" cols="100" rows="10"></textarea>
+<br/>
+<input disabled style="width: 61em;" type="text" cols="100" name="message"/>
+<br/><br/>
+<button class="connect">connect</button>
+<button class="send" disabled>send</button>
+
+<script data-main="/scripts/app/requirejs_configuration.js" src="/scripts/vendor/requirejs/require.js"></script>
+<script>
+    require(["/examples/chat/init.js"]);
+</script>
+
+</body>
+</html>

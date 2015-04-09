@@ -1,0 +1,5 @@
+.idea
+.gitignore~
+node_modules
+public/scripts/app.js
+public/scripts/vendor

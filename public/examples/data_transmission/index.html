@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WebRTC callee testing</title>
+
+</head>
+<body>
+
+<style>
+    .progress_bar {
+        width: 800px;
+        height: 50px;
+        border: 1px solid black;
+        padding: 1px;
+    }
+
+    .progress {
+        height: 100%;
+        width: 0;
+        background: #000;
+    }
+</style>
+
+<div class="progress_bar">
+    <div class="progress"></div>
+</div>
+<br/>
+<button class="send_big_data">Send big data</button>
+
+<script data-main="/scripts/app/requirejs_configuration.js" src="/scripts/vendor/requirejs/require.js"></script>
+<script>
+    require(["/examples/data_transmission/init.js"]);
+</script>
+
+</body>
+</html>

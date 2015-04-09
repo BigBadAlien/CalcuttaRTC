@@ -1,0 +1,25 @@
+{
+  "name": "CalcuttaRTC",
+  "version": "0.1.1",
+  "description": "Module for WebRTC connection and data transfering",
+  "main": "server.js",
+  "dependencies": {
+    "lodash-cli": "^3.5.0",
+    "node-static": "^0.7.6",
+    "socket.io": "^1.3.5"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-mocha": "^2.0.1",
+    "gulp-jshint": "^1.10.0",
+    "mocha": "^2.2.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webRTC",
+    "p2p"
+  ],
+  "author": "Alexandr Ishchenko"
+}
