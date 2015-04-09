@@ -1,12 +1,17 @@
 Simple p2p connection and data transfering with WebRTC
 
-### Installation
+### Installation and running
 Needed global gulp and bower.
 
 ```
 npm install -g lodash-cli
 npm install
 gulp install
+```
+
+For starting statics and WebRTC signaling server
+```
+node server.js
 ```
 
 ### Testing
