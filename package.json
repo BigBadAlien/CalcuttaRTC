@@ -1,7 +1,7 @@
 {
   "name": "CalcuttaRTC",
   "version": "0.1.1",
-  "description": "Module for WebRTC connection and data transfering",
+  "description": "Simple p2p connection and data transfering with WebRTC",
   "main": "server.js",
   "dependencies": {
     "lodash-cli": "^3.5.0",

@@ -4,7 +4,7 @@
   "authors": [
     "Alexandr Ishchenko <lord.alexandrius@gmail.com>"
   ],
-  "description": "Module for RTC connection and data transfering",
+  "description": "Simple p2p connection and data transfering with WebRTC",
   "moduleType": [
     "amd",
     "node"
